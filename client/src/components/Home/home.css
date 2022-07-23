@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Passion+One&display=swap");
+
+.home {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cfbeeb;
+  background-image: url("../../images/loginbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px;
+}
+
+.home h1 {
+  color: #261b2c;
+  margin-top: 3rem;
+  /* margin-bottom: 2rem; */
+  /* text-transform: uppercase; */
+  font-family: "Fredoka One", cursive;
+}
+
+.home h4 {
+  font-family: "Passion One", cursive;
+  color: #5c3343;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1em;
+}
+
+.accordion-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-body .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .btn.btn-primary {
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 0;
+  box-shadow: none !important;
+}
+
+.update-icons {
+  margin: 0 0.5rem;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.update-icons:hover {
+  background-color: rgb(224, 221, 221);
+}
+
+.accordion-button {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn.btn-dark {
+  margin: 2rem 0;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.iconlogout {
+  margin-left: 0.5rem;
+}

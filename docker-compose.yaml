@@ -1,0 +1,20 @@
+services:
+  server:
+    build: ./server
+    container_name: manageshowsback_c
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./server:/dockerapp
+      - /dockerapp/node_modules
+    environment:
+      - PORT=3001
+      - DB=mongodb+srv://zainabraja:zainab2120@user.kzx7k.mongodb.net/?retryWrites=true&w=majority
+      - SECRET=azbacidneafbg2h0
+  client:
+    build: ./client
+    container_name: manageshowsfront_c
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
