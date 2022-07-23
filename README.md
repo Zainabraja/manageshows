@@ -13,7 +13,8 @@ You must have Docker Installed on your System !
 #### Clone the app:
 
 ```
-git clone https://github.com/Zainabraja/manage-shows.git
+git clone https://github.com/Zainabraja/manageshows.git
+cd manageshows
 ```
 
 #### Run the app using :
