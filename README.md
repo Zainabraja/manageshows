@@ -10,7 +10,7 @@ You must have Docker Installed on your System !
 
 ## Getting Started
 
-Run Docker Desktop.
+**Run Docker Desktop** (Very Important)
 
 #### Clone the app:
 
